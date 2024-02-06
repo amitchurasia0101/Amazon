@@ -44,12 +44,12 @@ i{
 }
 .dilevryLocation p{
     font-size: 11px;
-    margin: 6px 0 5px 8px;
-    text-decoration: underline;
+    margin: -6px 0 4px 12px;
+    /* text-decoration: underline; */
 }
 .title_item{
     background-color: rgb(255, 255, 255);
-    height: 80px;
+    height: 96px;
     display: flex;
     gap: 8px;
     justify-content: center;
@@ -102,15 +102,27 @@ i{
 .item1{
     background-image: url();
 }
-.main_box{
+/* .main_box{
     border-bottom: 1.5px solid #000000;
     height: 225px;
     background-image: url(main.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-
-    /* background-color: brown; */
+} */
+.main_box {
+    height: 145px;
+    border-bottom: 1.5px solid #000000;
+    background-image: url(main.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.main_box_link {
+    height: 225px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
 }
 .down-menu{
     border: 1.5px solid #000000;
